@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'CRSANS';
-    src: url('fonts/CRSANS.woff2') format('woff2');
+    src: url('/FJChoring/FJChoring.github.io/edit/main/fonts/CRSANS.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'SFUI';
-    src: url('fonts/SF.woff2') format('woff2');
+    src: url('/FJChoring/FJChoring.github.io/edit/main/fonts/SF.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'PF';
-    src: url('fonts/PF.woff2') format('woff2');
+    src: url('/FJChoring/FJChoring.github.io/edit/main/fonts/PF.woff2') format('woff2');
 }
 
 /* 全局样式 */
 body {
-    font-family: 'PF', PingFang SC, 微软雅黑;
+    font-family: 'PF';
     margin: 0;
     padding: 0;
     background-image: linear-gradient(15deg, #ff4800, #ffc400);
@@ -171,7 +171,7 @@ footer {
     margin-left: 20px; /* 按钮之间的间距 */
     text-decoration: none;
     color: #FFFFFF; /* 设置按钮文字颜色与“首页”相同 */
-    font-family: 'PF', PingFang SC, 微软雅黑; /* 设置按钮字体与“首页”相同 */
+    font-family: 'PF'; /* 设置按钮字体与“首页”相同 */
     font-size: inherit; /* 继承父元素的字体大小 */
     font-weight: inherit; /* 继承父元素的字体粗细 */
 }
@@ -288,7 +288,7 @@ main {
     align-items: flex-start; /* 从容器的顶部开始排列子元素 */
     padding: 30px; /* 容器的内边距 */
     position: relative; /* 设置相对定位，以便背景图绝对定位 */
-    background-image: url('./res/icons.svg'); /* 添加背景图 */
+    background-image: url('/FJChoring/FJChoring.github.io/edit/main/res/icons.svg'); /* 添加背景图 */
     background-position: center; /* 背景图居中 */
     background-repeat: no-repeat; /* 背景图不重复 */
     background-size: contain; /* 背景图适应容器大小 */
@@ -320,7 +320,7 @@ main {
 }
 
 .teacher-resource {
-    background-image: url('./res/icons.svg'); /* 添加背景图 */
+    background-image: url('/FJChoring/FJChoring.github.io/edit/main/res/icons.svg'); /* 添加背景图 */
     background-position: center; /* 背景图居中 */
     background-repeat: no-repeat; /* 背景图不重复 */
     background-size: contain; /* 背景图适应容器大小 */
@@ -328,7 +328,7 @@ main {
 }
 
 .value-resource {
-    background-image: url('./res/纸箱.png'); /* 添加背景图 */
+    background-image: url('/FJChoring/FJChoring.github.io/edit/main/res/纸箱.png'); /* 添加背景图 */
     background-position: center; /* 背景图居中 */
     background-repeat: no-repeat; /* 背景图不重复 */
     background-size: contain; /* 背景图适应容器大小 */
